@@ -1,0 +1,14 @@
+import java.io.*;
+
+// import this_keyword.Inter;;
+public class this_super {
+
+    public static void main(String[] args)  throws IOException{
+    BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
+    String str = b.readLine();
+   
+    int i = Integer.parseInt(b.readLine());
+System.out.println(i);
+System.out.println("String "+ str);
+    }
+}
